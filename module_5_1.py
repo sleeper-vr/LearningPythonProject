@@ -9,7 +9,7 @@ class House:
         if new_floor > self.number_of_floors or new_floor < 1:
             print('Такого этажа не существует')
         else:
-            for floor in range(1, new_floor):
+            for floor in range(1, new_floor+1):
                 print(floor)
 
 
